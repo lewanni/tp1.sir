@@ -41,7 +41,15 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
+			
+			<plugin >
+				<groupId>fr.sir.tpmaven</groupId>
+			  	<artifactId>classcounter-maven-plugin</artifactId>
+			  	<version>0.0.1-SNAPSHOT</version>
+			</plugin >
 		</plugins>
+		
+		
 		
 		<pluginManagement>
 			<plugins>
